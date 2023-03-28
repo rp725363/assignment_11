@@ -55,9 +55,29 @@ we can check and improve immerdiatly. Using logging function make code maintaina
 
 9. What are the differences between the Step Over, Step In, and Step Out buttons in the debugger?
 Ans:-
+Here are below uses of the step over, step In and step out:-
+Step Out:-
+tep Over: The Step Over button allows you to execute the current line of code and move to the next line in the current function. If the current line contains a
+function call, the function will be executed, but the debugger will not stop at each line of code in the function. Instead, it will move to the next line of the 
+calling function after the function call is completed.
+
+Step In: The Step In button allows you to move into the next line of code, whether it is a function call or not. If the current line contains a function call, 
+the debugger will stop at the first line of code in the called function, allowing you to step through each line of the called function.
+
+Step Out: The Step Out button allows you to move out of the current function and back to the calling function. If the current line is inside a function, the 
+debugger will execute the remaining lines in the current function and then move back to the calling function.
 
 
+10.After you click Continue, when will the debugger stop ?
+Ans:-
+In other words, "Continue" simply resumes the normal execution of the program and does not set any additional conditions for the debugger to stop.
+If you want to stop the debugger at a specific point later, you would need to set a breakpoint at that point in the code.
 
+11. What is the concept of a breakpoint?
+Ans:-
+reakpoints are typically set using an integrated development environment (IDE) or debugging tool, which allows the programmer to specify the line of code 
+where the breakpoint should be set. Once the breakpoint is set, the debugger will pause the program's execution when it reaches that point, 
+allowing the programmer to investigate and resolve any issues that may have occurred.
 
 
 
