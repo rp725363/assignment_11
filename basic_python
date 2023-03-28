@@ -1,0 +1,69 @@
+1. Create an assert statement that throws an AssertionError if the variable spam is a negative
+integer.
+Ans:-
+Here is assert statement which will through a error when user given a negative input
+assert spam >= 0 , "this is negative integer"
+
+2. Write an assert statement that triggers an AssertionError if the variables eggs and bacon contain
+strings that are the same as each other, even if their cases are different (that is, &#39;hello&#39; and &#39;hello&#39; are
+considered the same, and &#39;goodbye&#39; and &#39;GOODbye&#39; are also considered the same).
+Ans:-
+Here are example the through assertationerror:-
+x=1
+y=0
+assert y!=0,"this is invalid opration"
+
+3. Create an assert statement that throws an AssertionError every time.
+Ans:-
+Here is statement below that always through assertationerror:-
+
+assert False,"this is invalid"
+
+4. What are the two lines that must be present in your software in order to call logging.debug()?
+Ans:-
+In order to call logging.debug() your code must contains below two line to debug the code and get the log:-
+
+import logging
+logging.basicConfig(level=logging.debug,format='%(asctime)s-%(levelname)s-%(massage)s')
+
+5. What are the two lines that your program must have in order to have logging.debug() send a
+logging message to a file named programLog.txt?
+Ans:-
+Here below are two lines of code that is required to save a log file from your software :-
+
+import logging
+logging.basicConfig(filename=program.txt,level=logging.debug,format='%(asctime)s-%(levelname)s-%(massage)s')
+
+6. What are the five levels of logging?
+Ans:-
+Here are below five types of logging:-
+1. DEBUG
+2. INFO
+3. WARNING
+4. ERROR
+5. CRITICAL
+
+7. What line of code would you add to your software to disable all logging messages?
+Ans:-
+You can disable logging in your software by using below codes:-
+Logging.disable(LOGGING.CRITICAL)
+
+8.Why is using logging messages better than using print() to display the same message?
+Ans:-
+Usig logging in python instead of print() function provide a documented record of errors and save an event log in case any failure happens then by using log file 
+we can check and improve immerdiatly. Using logging function make code maintainable and we can debug the code whithout modifying it.
+
+9. What are the differences between the Step Over, Step In, and Step Out buttons in the debugger?
+Ans:-
+
+
+
+
+
+
+
+
+
+
+
+
